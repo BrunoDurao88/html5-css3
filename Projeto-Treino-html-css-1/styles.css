@@ -44,7 +44,7 @@ header{
     background-image: linear-gradient(to bottom, var(--cor3),var(--cor5));
     font-family: var(--fonte-padrao);
     padding-top: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 3%;
     
 }
 
