@@ -1,36 +1,61 @@
 @charset "UTF-8";
 
-body{
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: rgba(128, 128, 128, 0.605);
+}
+
+header{
     background-color: black;
-}
-
-#bloco1{
-    height: 1000px;
-    background-image: url("imagens/Matutos\ modernos\ 1.jpg");
-    background-repeat: no-repeat;
-    background-position: right center;
-}
-
-#bloco2{
-    height: 1000px;
-    background-image: url("imagens/Matutos\ modernos\ 2\ -\ porta\ do\ céu.jpg");
-    background-repeat: no-repeat;
-    background-position: right center;
-}
-#d0{
     color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-variant: small-caps;
 }
+header > p{
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+
 
 section{
     background-color: rgb(255, 255, 255);
-    width: 300px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 30vh;
+    line-height: 2em;
 }
 
-#d2{
-    background-color: rgb(255, 255, 255);
-    width: 300px;
-}
+section.imagem{
+    background-color: rgb(94, 94, 94);
+    background-image: url("imagens/Matutos\ modernos\ 1.jpg");
+    background-attachment: fixed;
+    }
+
+    section.imagem > p{
+        width: 400px;
+        background-color: rgba(0, 0, 0, 0.322);
+    }
 
 footer{
-    background-color: white;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
