@@ -58,7 +58,7 @@ section{
     padding-bottom: 25vh;
     line-height: 2em;
     font-family: var(--font3);
-    font-size: 3vw;
+    font-size: 5vw;
     font-size: bold;
    
 }
@@ -94,7 +94,13 @@ section.imagem > p{
     }
 
 
-
+#nota{
+    text-align: right;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.611);
+    padding-right: 15px;
+    
+}
 footer{
     background-color: black;
     color: white;
