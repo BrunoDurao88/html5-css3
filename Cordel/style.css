@@ -5,9 +5,20 @@
     padding: 0px;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: "Mulish", sans-serif;
+    --font3:  "Sriracha", cursive;
+}
+
 html, body{
     min-height: 100vh;
     background-color: rgba(128, 128, 128, 0.605);
+    font-family: var(--font1);
 }
 
 header{
@@ -16,9 +27,13 @@ header{
     text-align: center;
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--font2);
+    font-size: 3vw;
 }
 header > p{
     padding-bottom: 50px;
+    font-family: var(--font2)
+    
 }
 
 a{
@@ -37,21 +52,47 @@ a:hover{
 section{
     background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
-    background-position: top center;
-    padding: 30vh;
+   
+    padding-left: 5vh;
+    padding-top: 25vh;
+    padding-bottom: 25vh;
     line-height: 2em;
+    font-family: var(--font3);
+    font-size: 3vw;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.483);
 }
 
 section.imagem{
-    background-color: rgb(94, 94, 94);
-    background-image: url("imagens/Matutos\ modernos\ 1.jpg");
+    background-color: rgba(0, 0, 0, 0.42);
     background-attachment: fixed;
+    background-size: cover;
+    color: white
+        
     }
 
-    section.imagem > p{
-        width: 400px;
-        background-color: rgba(0, 0, 0, 0.322);
+section#f1{
+    background-image: url("imagens/Matutos-modernos1-v2.jpg");  
+    background-position: top center;
+}
+
+section#f2{
+    background-image: url("imagens/Matutos-modernos2-porta-do-ceu-v2.jpg");
+    background-position: top center;
+
+}
+
+section#f3{
+    background-image: url("imagens/Matutos-modernos4-v2.jpg");
+    background-position: top center;
+
+}
+
+section.imagem > p{
+       display: inline-block;
+        background-color: rgba(0, 0, 0, 0.474);
     }
+
+
 
 footer{
     background-color: black;
