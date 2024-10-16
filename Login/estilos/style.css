@@ -2,7 +2,9 @@
 
 
 /* paleta de cores
-Azul -- #228bd3
+Azul -- 
+
+
 Lilaz -- #ab9cd3
 Laranja -- #e55806
 Verde -- #00bd0d
@@ -56,4 +58,15 @@ section#login > div#form {
     display: block;
     padding: 10px;
 
+
+}
+
+section#login > div#form > h1{
+    text-align: center;
+    
+}
+
+section#login > div#form >p{
+    font-size: 0.8em;
+    
 }

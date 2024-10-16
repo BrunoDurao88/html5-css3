@@ -6,6 +6,10 @@
     <title>Logim</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/medias-queries.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=person" />
+   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=key" />
+
 </head>
 <body>
     <main>
@@ -16,8 +20,23 @@
             <div id="form">
                 <h1>Logim</h1>
                 <p> Bem vindo(a), faça logim para acessar sua conta e poder fazer as configurações do seu ambiente. </p>
-                <form action="login.php" method="post">
+                <form action="login.php" method="post" autocomplite="on">
+                    <div class="campo">
+                        <span class="material-symbols-outlined">
+                            person
+                            </span>
+                            </style>
+                        <input type="email" name="login" id="ilogin" placeholder="seue-mail" autocomplete="email">
+                        <label for="ilogin">Login</label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-symbols-outlined">
+                            key
+                            </span>
+                        <input type="password" name="senha" id="isenha" placeholder="sua senha" autocapitalize="cuurent-passwor">
+                        <label for="isenha">Senha</label>
 
+                    </div>
                 </form>
             </div>
 
