@@ -2,9 +2,7 @@
 
 
 /* paleta de cores
-Azul -- 
-
-
+Azul -- #228bd3
 Lilaz -- #ab9cd3
 Laranja -- #e55806
 Verde -- #00bd0d
@@ -38,7 +36,7 @@ section#login{
     transform: translate(-50%, -50%);
     background-color: white;
     border-radius: 20px;
-    height: 600px;
+    height: 500px;
     width:300px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.496);
@@ -57,6 +55,7 @@ section#login > div#imagem {
 section#login > div#form {
     display: block;
     padding: 10px;
+    margin-top: 20px;
 
 
 }
@@ -69,4 +68,79 @@ section#login > div#form > h1{
 section#login > div#form >p{
     font-size: 0.8em;
     
+}
+
+form > div.campo{
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 35px;
+    width: 90%;
+    background-color:#e55806 ;
+    border-radius: 5px;
+}
+
+form > div> label{
+    display:none;
+}
+
+div.campo > span{
+    color: #374244;
+    width: 35px;
+    font-size: 2em;
+    padding: 2px;
+}
+
+div.campo > input{
+    border-radius: 5px;
+    height: 90%;
+    width: calc(100% - 45px);
+    transform: translateY(-11px);
+    background-color: lightgray ;
+}
+
+div.campo > input:focus-within{
+    background-color: white;
+}
+
+form > input[type=submit]{
+    display: block;
+    margin: auto;
+    height: 35px;
+    width: 90%;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #228bd3;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+form > input[type=submit]:hover{
+    background-color: #155885;
+   
+}
+
+form > a{
+    display: block;
+    margin: auto;
+    height: 35px;
+    width: 90%;
+    text-align: center;
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+    background-color:#00bd0db8 ;
+    border-radius: 5px;
+    padding-top: 5px;
+
+}
+
+form > a:hover{
+    background-color:#00bd0d;
+}
+
+form > a.botao >span{
+    font-size: 0.8em;
 }
